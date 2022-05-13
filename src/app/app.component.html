@@ -1,0 +1,12 @@
+<div class="container">
+
+  <div>
+    Tên SV: <app-name [name]="students[0].name"></app-name>
+  </div>
+  <div>
+    Mã SV: <app-identity [identity]="students[0].id"></app-identity>
+  </div>
+  <h1 class="text-center mb-5">Champions League</h1>
+
+  <app-table [champions]='champs'></app-table>
+</div>
